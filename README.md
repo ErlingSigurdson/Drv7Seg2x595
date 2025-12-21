@@ -266,13 +266,13 @@ Drv7Seg.output(seg_byte_seconds_ones, Drv7SegPos4);
 ### Anti-ghosting
 
 Ghosting prevention involves retention of a currently displayed glyph on a corresponding position for a short period
-of time. The duration of such period has a reasonable default of 300 microseconds, but you can override it.
+of time. The duration of such period has a reasonable default of 600 microseconds, but you can override it.
 ```cpp
-/* If you encounter ghosting, or glyphs appear too dim or show inconsistent brightness,
+/* If you encounter ghosting, random flickering, or glyphs appear too dim or show inconsistent brightness,
  * try passing a higher value (about 1000 to 4000).
- * If you encounter rippled output, try passing a lower value (about 10 to 200).
+ * If you encounter constant flickering, try passing a lower value (about 10 to 400).
  */
-Drv7Seg.set_anti_ghosting_retention_duration(2000);
+Drv7Seg.set_anti_ghosting_retention_duration(1000);
 ```
 
 Refer to `Drv7Seg2x595.h` for more API details.

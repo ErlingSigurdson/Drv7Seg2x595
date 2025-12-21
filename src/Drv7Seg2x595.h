@@ -43,7 +43,7 @@
 /* Duration (in microseconds) of a short period during which
  * a currently output glyph is retained on a respective character position.
  */
-#define DRV7SEG2X595_ANTI_GHOSTING_DEFAULT_RETENTION_DURATION 300
+#define DRV7SEG2X595_ANTI_GHOSTING_DEFAULT_RETENTION_DURATION 600
 
 #define DRV7SEG2X595_POS_MIN 1
 #define DRV7SEG2X595_POS_MAX 4
