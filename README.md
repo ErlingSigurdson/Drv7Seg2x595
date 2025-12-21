@@ -352,6 +352,12 @@ depend on a single particular wiring.
 * [Backup repository on GitFlic](https://gitflic.ru/project/efimov-d-v/segmap595)
 * [Backup repository on Codeberg](https://codeberg.org/ErlingSigurdson/SegMap595)
 
+### Drv7SegQ595
+A derivative (a fork) of this library. Uses a set of GPIO-driven transistors instead of `pos_byte`.
+* [Primary repository on GitHub](https://github.com/ErlingSigurdson/Drv7SegQ595)
+* [Backup repository on GitFlic](https://gitflic.ru/project/efimov-d-v/Drv7SegQ595)
+* [Backup repository on Codeberg](https://codeberg.org/ErlingSigurdson/Drv7SegQ595)
+
 ## Contact details
 
 **Maintainer** — Dmitriy Efimov aka Erling Sigurdson
