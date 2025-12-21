@@ -5,7 +5,7 @@
 	(uuid "379795a0-c68f-4c94-9399-90603a2bef2e")
 	(paper "A4")
 	(title_block
-		(date "15.12.2025")
+		(date "22.12.2025")
 		(comment 1 "Documentation: github.com/ErlingSigurdson/Drv7Seg2x595")
 		(comment 2 "Licensed under CERN-OHL-P v2")
 		(comment 3 "Copyright (c) 2025 Dmitriy Efimov aka Erling Sigurdson")
@@ -2186,338 +2186,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_1_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_2"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_2_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_3"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_3_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -2757,7 +2425,7 @@
 		(uuid "c7dc8306-bd25-41f9-b9bf-a00751a15e75")
 	)
 	(junction
-		(at 210.82 90.17)
+		(at 207.01 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12a89c68-d8c2-442e-946d-d699e070b5fb")
@@ -2805,7 +2473,7 @@
 		(uuid "bbf0f720-4b92-4822-a3c4-7c06eebba61f")
 	)
 	(junction
-		(at 210.82 110.49)
+		(at 207.01 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd6c1862-97bc-489d-b6e0-181dbc8d1bf2")
@@ -2920,7 +2588,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 96.52) (xy 220.98 90.17)
+			(xy 217.17 96.52) (xy 217.17 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3010,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 85.09) (xy 210.82 90.17)
+			(xy 207.01 85.09) (xy 207.01 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3040,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 110.49) (xy 210.82 110.49)
+			(xy 217.17 110.49) (xy 207.01 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3100,7 +2768,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 90.17) (xy 210.82 90.17)
+			(xy 217.17 90.17) (xy 207.01 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3350,7 +3018,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 104.14) (xy 220.98 110.49)
+			(xy 217.17 104.14) (xy 217.17 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3400,7 +3068,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 104.14) (xy 210.82 110.49)
+			(xy 207.01 104.14) (xy 207.01 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3450,7 +3118,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 90.17) (xy 210.82 96.52)
+			(xy 207.01 90.17) (xy 207.01 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3629,7 +3297,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 220.98 100.33 180)
+		(at 217.17 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3637,7 +3305,7 @@
 		(dnp no)
 		(uuid "05eabf55-f6bf-48b6-b2ff-5dbd7df92bd0")
 		(property "Reference" "C2"
-			(at 225.806 94.996 0)
+			(at 221.996 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,7 +3314,7 @@
 			)
 		)
 		(property "Value" "0.1 μF"
-			(at 228.092 97.536 0)
+			(at 224.282 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3323,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 220.0148 96.52 0)
+			(at 216.2048 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 100.33 0)
+			(at 217.17 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +3341,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 220.98 100.33 0)
+			(at 217.17 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,70 +3490,6 @@
 			(project "7seg_4d_2x595"
 				(path "/379795a0-c68f-4c94-9399-90603a2bef2e"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 234.95 96.52 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0cd09419-4559-4451-b3ae-05257a6abb40")
-		(property "Reference" "Hole2"
-			(at 237.49 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 237.49 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 234.95 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 234.95 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "7seg_4d_2x595"
-				(path "/379795a0-c68f-4c94-9399-90603a2bef2e"
-					(reference "Hole2")
 					(unit 1)
 				)
 			)
@@ -4170,7 +3774,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 210.82 100.33 0)
+		(at 207.01 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4178,7 +3782,7 @@
 		(dnp no)
 		(uuid "27c03f73-0425-46c2-972c-7ea496042bf7")
 		(property "Reference" "C1"
-			(at 213.106 94.996 0)
+			(at 209.296 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +3791,7 @@
 			)
 		)
 		(property "Value" "0.1 μF"
-			(at 211.328 97.536 0)
+			(at 207.518 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4196,7 +3800,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 211.7852 104.14 0)
+			(at 207.9752 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,7 +3809,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 100.33 0)
+			(at 207.01 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +3818,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 210.82 100.33 0)
+			(at 207.01 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,71 +4371,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_3")
-		(lib_id "Mechanical:MountingHole")
-		(at 234.95 102.87 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52fe57ed-8ef6-42d8-ac85-d7dac56840de")
-		(property "Reference" "Hole3"
-			(at 237.49 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 237.49 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 234.95 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 234.95 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "7seg_4d_2x595"
-				(path "/379795a0-c68f-4c94-9399-90603a2bef2e"
-					(reference "Hole3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 144.78 68.58 90)
 		(unit 1)
@@ -5167,7 +4706,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 210.82 85.09 0)
+		(at 207.01 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5175,7 +4714,7 @@
 		(dnp no)
 		(uuid "6467207e-2de7-4c3f-8714-82e26e187d69")
 		(property "Reference" "#PWR016"
-			(at 210.82 88.9 0)
+			(at 207.01 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5184,7 +4723,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 210.82 81.28 0)
+			(at 207.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,7 +4731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 85.09 0)
+			(at 207.01 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,7 +4740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 85.09 0)
+			(at 207.01 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +4749,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 210.82 85.09 0)
+			(at 207.01 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5511,7 +5050,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 110.49 0)
+		(at 207.01 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5519,7 +5058,7 @@
 		(dnp no)
 		(uuid "75677e24-46e5-4f64-a06d-d8908af56bc7")
 		(property "Reference" "#PWR017"
-			(at 210.82 116.84 0)
+			(at 207.01 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +5067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 114.554 0)
+			(at 207.01 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 110.49 0)
+			(at 207.01 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +5085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 110.49 0)
+			(at 207.01 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,7 +5094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 110.49 0)
+			(at 207.01 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,136 +6425,6 @@
 			(project "7seg_4d_2x595"
 				(path "/379795a0-c68f-4c94-9399-90603a2bef2e"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "MountingHole_2")
-		(lib_id "Mechanical:MountingHole")
-		(at 234.95 90.17 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa807d02-fdbb-4abb-89dd-b0aea7df51e9")
-		(property "Reference" "Hole1"
-			(at 237.49 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 237.49 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 234.95 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 234.95 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/379795a0-c68f-4c94-9399-90603a2bef2e"
-					(reference "Hole1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "MountingHole_1")
-		(lib_id "Mechanical:MountingHole")
-		(at 234.95 109.22 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fcd9214c-831c-487e-b7ac-8dfc934c1b9c")
-		(property "Reference" "Hole4"
-			(at 237.49 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 237.49 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 234.95 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 234.95 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "7seg_4d_2x595"
-				(path "/379795a0-c68f-4c94-9399-90603a2bef2e"
-					(reference "Hole4")
 					(unit 1)
 				)
 			)
