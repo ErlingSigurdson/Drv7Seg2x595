@@ -280,7 +280,7 @@ Refer to `Drv7Seg2x595.h` for more API details.
 ## Special cases
 
 * **Multiple drivers**. You can create additional instances of `Drv7Seg2x595Class` and use them for driving multiple
-displays, but it is adviced not to employ SPI by more than one instance at a time.
+displays, but you shouldn't employ SPI by more than one instance at a time.
 
 * **Single-digit displays**. With a single-position display there's usually no purpose in a switchable signal that
 turns the only character position ON and OFF (all control job can be done by `seg_byte` alone), nor there's a need for
