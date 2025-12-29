@@ -152,7 +152,9 @@
 
 void setup()
 {
+    #ifdef SERIAL_OUTPUT_TIMER_VALUES
     Serial.begin(BAUD_RATE);
+    #endif
 
 
     /*--- Byte mapping ---*/
@@ -259,19 +261,7 @@ void loop()
 
         // Dot-segment blink.
         if (counter_seconds % 2) {
-            /* static keyword is only suitable if you're not planning subsequent
-             * init() calls that can change the actual dot bit position.
-             */
-            static int32_t dot_bit_pos = SegMap595.get_dot_bit_pos();
-            if (dot_bit_pos >= 0) {  /* If no error is detected.
-                                      * In this example sketch, the error check is already done before, but this check
-                                      * is provided here despite the redundancy to prevent the user from omitting it in
-                                      * their own implementation (shifting by a negative value would cause undefined
-                                      * behavior, which must be avoided at all costs).
-                                      */
-                uint8_t mask = static_cast<uint8_t>(1u << dot_bit_pos);
-                seg_byte_minutes_ones ^= mask;
-            }
+            seg_byte_minutes_ones = SegMap595.toggle_dot_bit(seg_byte_minutes_ones);
         }
 
         Drv7Seg.set_glyph_to_pos(seg_byte_minutes_tens, Drv7SegPos1);
