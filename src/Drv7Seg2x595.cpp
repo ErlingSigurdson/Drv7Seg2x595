@@ -324,6 +324,9 @@ void Drv7Seg2x595Class::set_anti_ghosting_retention_duration(uint32_t new_val)
         return;
     }
 
+
+    /*--- Retention duration control ---*/
+
     _anti_ghosting_retention_duration = new_val;
 }
 
