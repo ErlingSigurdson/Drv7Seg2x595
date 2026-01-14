@@ -258,9 +258,9 @@ class Drv7Seg2x595Class {
          * - a positive integer if an anti-ghosting retention is running.
          *
          * Parameters:
-         * - seg_byte                            - a byte that corresponds to a glyph to be output.
-         * - pos                                 - a number of the character position (digit) the next glyph
-         *                                         must be output on.
+         * - seg_byte - a byte that corresponds to a glyph to be output.
+         * - pos      - a number of the character position (digit) the next glyph
+         *              must be output on.
          */
         int32_t output(uint8_t seg_byte,
                        Pos pos
